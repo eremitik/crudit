@@ -9,7 +9,7 @@ Here are the steps to run on local:
 - Run `npm start` to fire up server
 - Open `index.html` in the `app` folder
 - Create a database in psql called `notes`
-- Run the migration and seed files in knex, `knex migrate:latest` and `knex seed:run`
+- Run the migration and seed files using terminal commands `knex migrate:latest` and `knex seed:run`
 - You can make GET, POST, PUT, DELETE requests from these endpoints:
     - /api/notes ---> GET
     - /api/post ---> POST
