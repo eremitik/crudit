@@ -1,6 +1,6 @@
 This was created during my time as a student at Code Chrysalis.
 
-'Crudit' is a simple CRUD app build with Postgres, Knex and some simple html.
+'Crudit' is a simple CRUD app built with Postgres, Knex and some simple html.
 
 
 Here are the steps to run on local:
