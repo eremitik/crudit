@@ -8,7 +8,8 @@ Here are the steps to run on local:
 - Create a `.env` file and insert three criteria: `DB_NAME=notes` `DB_USER=yourPSQLusername` `DB_PASSWORD=yourPSQLpassword`
 - Run `npm start` to fire up server
 - Open `index.html` in the `app` folder
-- Create database in psql, a simple table with `userID`, `username` and `message`
+- Create a database in psql called `notes`
+- Run the migration and seed files in knex, `knex migrate:latest` and `knex seed:run`
 - You can make GET, POST, PUT, DELETE requests from these endpoints:
     - /api/notes ---> GET
     - /api/post ---> POST
@@ -18,5 +19,5 @@ Here are the steps to run on local:
 
 
 Future improvements:
-- Make migration & seed files 
-- Make `index.html` a bit more interactive, take inputs from client
+- Make migration & seed files easier to use
+- Make `index.html` a bit more interactive, take inputs from client to interact with API
