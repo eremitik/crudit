@@ -30,5 +30,5 @@ API endpoints:
 HTML\
 CSS\
 JavaScript\
-[Knex](https://knexjs.org/)\
+[Knex.js](https://knexjs.org/)\
 [PostgreSQL](https://www.postgresql.org/)
